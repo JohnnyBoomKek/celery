@@ -7,6 +7,7 @@ About the project:
 
 
 Getting started:
+
     #First things first you are going to need to install dependencies:
         - pip install -r requirements.txt
     #Install RabbitMQ (ubuntu linux)
