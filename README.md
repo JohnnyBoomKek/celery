@@ -1,8 +1,9 @@
 # Sending Emails with Django and Celery 
-learning project with sole purpose of learning celery
+learning project with the sole purpose of learning celery
 
 
-About the project: 
+About the project:
+
     Integrating Django and Celery to have Django send emails through Celery
 
 
