@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app1',
     'task2'
 ]
 
@@ -123,6 +122,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+#Set up django email client
 STATIC_URL = '/static/'
 EMAIL_BACKEND = os.getenv("EMAIL_BACKEND") 
 EMAIL_HOST =  os.getenv("EMAIL_HOST")
